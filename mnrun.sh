@@ -1,1 +1,1 @@
-wget https://raw.githubusercontent.com/zaferakbiyik/Sdk/main/mn.sh && sudo chmod 777 mn.sh && sudo bash mn.sh
+wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/mn.sh && sudo chmod 777 mn.sh && sudo bash mn.sh

@@ -6,7 +6,7 @@
 while :
 	do
 		echo "basliyor"
-		gsutil -m cp /mnt/zafer/chia-plotter/tamam/*.plot gs://boran
+		gsutil -m cp /mnt/lokman/chia-plotter/tohum/*.plot gs://lkmn1
 		echo "Gönderildi"
 		sleep 10
 		ls >> log.txt
