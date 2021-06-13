@@ -6,7 +6,7 @@
 
 while :
 	do
-		./chia-plotter-linux-amd64 -action plotting -plotting-fpk 0x86f840d440eadb86281daa5abcc08246a1b0ffb5d2934c80b6633f5864c404f224c22ff790f78076c9c8501a7a77a950 -plotting-ppk 0xb176d145768f26a0a84c5591c0b3a7d8096875e44b09b900619ad1e5e6f01d41bc074754f1aef63417452d012ab453b1 -b 14000 -r 4 -d tamam -t gecici -p
+		./chia-plotter-linux-amd64 -action plotting -plotting-fpk 0x807a54f96b903c9b27b28a11d91cf17e85f95f12174dde233e3de7bb80e6dcd02d5883214f301779fa70f843cc7bdfdf -plotting-ppk 0xa13b0a15aed6a916ba856ba24a716d87020e460dc029590be03c20a851b1af3d3367297ccf6d2765385bd2a69c520cf8 -b 13000 -r 4 -d tohum -t temp -p
 		echo "Gönderildi"
 		sleep 500
 		ls >> log.txt

@@ -1,8 +1,8 @@
 #!/bin/bash
 cd /
-sudo mkdir one
-sudo chmod a+w /one
-sudo chmod a+w one
+sudo mkdir kale
+sudo chmod a+w /kale
+sudo chmod a+w kale
 export GCSFUSE_REPO=gcsfuse-`lsb_release -c -s`
 echo "deb http://packages.cloud.google.com/apt $GCSFUSE_REPO main" | sudo tee /etc/apt/sources.list.d/gcsfuse.list
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
@@ -15,7 +15,7 @@ wget https://raw.githubusercontent.com/zaferakbiyik/Sdk/main/giris.json
 gcloud auth activate-service-account --key-file giris.json
 wget https://raw.githubusercontent.com/zaferakbiyik/Sdk/main/apideneme.json
 export GOOGLE_APPLICATION_CREDENTIALS="/apideneme.json"
-gcsfuse boran /one
+gcsfuse boran /kale
 sudo apt-get install unzip
 wget https://github.com/hpool-dev/chia-miner/releases/download/v1.4.0-2/HPool-Miner-chia-v1.4.0-2-linux.zip
 unzip HPool-Miner-chia-v1.4.0-2-linux.zip

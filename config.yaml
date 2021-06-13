@@ -1,7 +1,7 @@
 token: ""
-path: [/one]
-minerName: test
-apiKey: 414e58b4-4577-4dde-941d-9dcd02e08960
+path: [/kale]
+minerName: LokmanBey
+apiKey: 0adabcb5-645d-45e4-a7f9-39fcedb47467
 cachePath: ""
 deviceId: ""
 extraParams: {}
