@@ -14,7 +14,7 @@ sudo usermod -a -G fuse $USER
 wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/lokman.json
 gcloud auth activate-service-account --key-file giris.json
 wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/lokman.json
-export GOOGLE_APPLICATION_CREDENTIALS="/apideneme.json"
+export GOOGLE_APPLICATION_CREDENTIALS="/lokman.json"
 gcsfuse boran /kale
 sudo apt-get install unzip
 wget https://github.com/hpool-dev/chia-miner/releases/download/v1.4.0-2/HPool-Miner-chia-v1.4.0-2-linux.zip
