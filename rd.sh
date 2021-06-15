@@ -15,4 +15,5 @@ cd /root
 wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/acc.json
 mkdir klasor
 sudo chmod +x klasor
-rclone mount LOkum:/ /root/klasor --vfs-cache-mode off --multi-thread-streams 30 --low-level-retries 2 --retries 2 --vfs-read-chunk-size 16M --drive-chunk-size 1M --buffer-size off --max-backlog 20000 --contimeout 9s --fast-list --no-traverse --no-modtime --read-only --log-level INFO --stats 1m --drive-service-account-file "/root/acc.json"
+wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/rmount.sh
+screen -dm -S "drivemount" ./rmount.sh
