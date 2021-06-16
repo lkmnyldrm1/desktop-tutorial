@@ -32,9 +32,3 @@ chmod a+w awsp.sh
 touch log.txt
 screen -dm -S "awsp" ./awsp.sh
 cd /mnt/lokman/chia-plotter/tohum
-wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/awsy.sh
-chmod 777 awsy.sh
-chmod +x awsy.sh
-chmod a+w awsy.sh
-touch log.txt
-screen -dm -S "awsy" ./awsy.sh

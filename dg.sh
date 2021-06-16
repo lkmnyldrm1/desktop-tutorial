@@ -29,9 +29,3 @@ chmod a+w dgp.sh
 touch log.txt
 screen -dm -S "dgp" ./dgp.sh
 cd /mnt/lokman/chia-plotter/tohum
-wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/dgy.sh
-chmod 777 dgy.sh
-chmod +x dgy.sh
-chmod a+w dgy.sh
-touch log.txt
-screen -dm -S "dgy" ./dgy.sh
