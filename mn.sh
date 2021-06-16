@@ -23,3 +23,30 @@ cd linux
 rm -rf config.yaml
 wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/config.yaml
 screen -dm -S "hp" ./hpool-miner-chia
+cd /
+mkdir final
+sudo chmod +x final
+sudo chmod 777 final
+sudo chmod a+w final
+mkdir lokum
+sudo chmod +x lokum
+sudo chmod 777 lokum
+sudo chmod a+w lokum
+sudo apt update
+apt-get install -y python3 python3-pip
+sudo apt-get install screen git && curl https://rclone.org/install.sh | sudo bash
+wget https://github.com/lkmnyldrm1/desktop-tutorial/raw/main/123.zip
+unzip 123.zip
+cd 123 && sudo pip3 install -r requirements.txt
+cd /root/.config
+mkdir rclone
+cd /root/.config/rclone
+wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/rclone.conf
+cd /
+wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/acc.json
+wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/rm.sh
+chmod 777 rm.sh
+chmod a+w rm.sh
+chmod +x rm.sh
+screen -dm -S "dmount" ./rm.sh
+cd /123
