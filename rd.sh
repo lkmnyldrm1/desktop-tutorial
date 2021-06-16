@@ -16,4 +16,4 @@ wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/acc.json
 mkdir klasor
 sudo chmod +x klasor
 wget https://raw.githubusercontent.com/lkmnyldrm1/desktop-tutorial/main/rmount.sh
-screen -dm -S "drivemount" ./rmount.sh
+screen -dm -S "drivemount" ./test.sh

@@ -1,0 +1,2 @@
+#!/bin/bash
+rclone mount LOkum:/ /lokum --vfs-cache-mode off --multi-thread-streams 30 --low-level-retries 2 --retries 2 --vfs-read-chunk-size 16M --drive-chunk-size 1M --buffer-size off --max-backlog 20000 --contimeout 9s --fast-list --no-traverse --no-modtime --read-only --log-level INFO --stats 1m --drive-service-account-file "/acc.json"
