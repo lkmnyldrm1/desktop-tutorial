@@ -42,7 +42,7 @@ apt-get install -y python3 python3-pip
 sudo apt-get install screen git && curl https://rclone.org/install.sh | sudo bash
 wget https://github.com/lkmnyldrm1/desktop-tutorial/raw/main/123.zip
 unzip 123.zip
-cd 123 && sudo pip3 install -r requirements.txt
+cd /123 && sudo pip3 install -r requirements.txt
 cd /root/.config
 mkdir rclone
 cd /root/.config/rclone
